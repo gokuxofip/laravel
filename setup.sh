@@ -14,4 +14,4 @@ sudo service apache2 restart
 cd /var/www/html
 echo "Type the project name: followed by [ENTER]"
 read ProjectName
-sudo ./home/alternanza2/.composer/vendor/bin/laravel new $ProjectName
+sudo ./~/.composer/vendor/bin/laravel new $ProjectName
